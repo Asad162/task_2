@@ -1,0 +1,151 @@
+
+
+
+.header {
+    height: 110px;
+    width: 1211px;
+    background-color: blue;
+    margin-left: 60px;
+}
+img{
+    height: 60px;
+    width: 60px;
+    margin: 25px;
+}
+.nav{
+    float: right;
+    
+   
+}
+
+.nav ul{
+    margin-top: 45px;
+}
+
+
+
+.nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+}
+.nav ul li:nth-child(3){
+    margin-right: 30px;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.left{
+    height: 500px;
+    width: 198px;
+    background-color: rgb(99 50 195);
+    float:left;
+    margin-left: 60px;
+}
+.left ul li {
+    color: white;
+    list-style-type: none;
+    border: 2px solid black;
+    margin-right: 40px;
+   
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.right{
+    height: 500px;
+    width: 1211px;
+    background-color:rgb(248, 27, 237);
+    margin-left: 60px;
+
+   
+}
+.right section {
+    margin-left: 100px;
+    margin-right: 10px;
+}
+ 
+
+    .box {
+        height: 300px;
+        width: 200px;
+        background-color: rgb(50, 47, 61);
+        float: left;
+        margin-left: 100px;
+        color: white;
+        
+        font-family: 'Roboto', sans-serif;
+        margin-top: 90px;
+        overflow: hidden;
+        overflow: scroll;
+    }
+
+.box_2{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(34, 204, 176);
+    overflow: hidden;
+    float: left;
+    margin-right: 100px;
+    
+    background-image: linear-gradient(red, yellow, blue);
+    margin-top: 90px;
+}
+.box_3 {
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    background-color: rgb(88, 18, 219);
+    background-image: url(image/logo.png);
+    background-position: center;
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 90px;
+}
+
+
+.footer{
+    height: 110px;
+    width: 1211px;
+    
+    margin-left: 60px;
+    background-color: rgb(6, 99, 56);
+    
+}
+.footer p{
+    color: white;
+    display: inline;
+    margin: 548px;
+    line-height: 100px;
+}
+h1{
+    display: inline;
+}
+
+.bd_flag {
+    background-color: green;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    float: left;
+    margin-top: 70px;
+    margin-left: 202px
+}
+.bd_flag::after {
+content: "";
+background-color: red;
+width: 180px;
+height: 180px;
+border-radius: 50%;
+position: absolute;
+left: 110px;
+top: 60px;
+}
